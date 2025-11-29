@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1{
+            color: green;
+            font-size: 60px;
+
+        }
+
+        div{
+            width: 500px;
+            height: 200px;
+           display: flex;
+            }
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+       
+            
+        @media (max-width: 600px) {
+            div{
+                background-color: whitesmoke;
+                color: red;
+
+            }
+            h1{
+                font-size: 30px;
+            }
+            .blue{
+                display: none;
+            }
+        } 
+        
+        
+
+        @media (max-width: 360px){
+            h1{
+                font-size: 20px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Learning Media queries</h1>
+
+    <div class="parent">
+        <div class="yellow"></div>
+        <div class="blue"></div>
+    </div>
+
+</body>
+</html>

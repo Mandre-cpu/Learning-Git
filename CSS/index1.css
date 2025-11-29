@@ -1,0 +1,20 @@
+p {
+    color: blue;
+}
+
+h1{background-color: pink; color: blue;}
+
+span{color: yellowgreen;font-size: large;}
+
+#heading2{color: antiquewhite;}
+
+.Paragraph{color: red;}
+
+span:hover{color: deeppink;background-color: aquamarine;}
+
+input:focus
+{background-color: blueviolet;}
+
+button:hover{background-color: blanchedalmond;}
+
+button:focus{background-color: chartreuse;}

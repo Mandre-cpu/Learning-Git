@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <Style>
+        
+    .First{
+            position: static;
+            background-color: rgba(255, 192, 203, 0.5);
+            width: 200px;
+            height: 200px;
+            left: 100px;
+            text-align: center; line-height: 10pc;
+
+          
+        }
+
+        .Second {
+            position: relative;
+            background-color: rgba(0, 174, 255, 0.5);
+            width: 200px;
+            height: 200px;
+            bottom: 120px;
+            left: 100px;
+            z-index: 22;
+            text-align: center; line-height: 8pc;
+        }
+        
+
+        .Third {
+            position: absolute;
+            background-color: rgba(0, 128, 53, 0.5);
+            width: 200px;
+            height: 200px;
+            left: 40px; 
+            bottom: 250px;
+            z-index: 232;
+            text-align: center; line-height: 10pc;
+            
+        }
+
+    </Style>
+
+ 
+        
+</head>
+<body>
+     <div class="First">
+       <h4>First</h4> 
+    </div>
+
+    <div class=Second>
+        <h4>Second</h4></div>
+
+    <div class="Third">
+        <h4>Third</h4></div>
+</body>
+</html>
